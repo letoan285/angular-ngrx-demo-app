@@ -1,0 +1,11 @@
+<div>
+    <ul>
+        <li *ngFor="let product of products" class="product-item">
+            <a href=""><p>Product name: {{product.name}}</p></a>
+            <strong>Price: {{product.price}}</strong>
+        </li>
+    </ul>
+    <div>
+        <button (click)="addNewProduct()" class="btn btn-success">Add New Product</button>
+    </div>
+</div>
