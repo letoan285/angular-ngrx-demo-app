@@ -995,10 +995,15 @@
     merge-source-map "^1.1.0"
     schema-utils "^2.6.4"
 
-"@ngrx/store@^9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-9.1.1.tgz#05eaaaae6c01d7058fae7d87d423ae33e86543b9"
-  integrity sha512-QxoNx+bfHb/3jkIsp/K+EnLodkY9zxHZIgaCXdkLPUzN5BUsCOLT6PLX0p1NUaBfJT/haBv7dAx7jGbSnrnUKA==
+"@ngrx/effects@^9.1.2":
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-9.2.1.tgz#dffee80e933f8bc9e2ef98950d93feac4f6d4b0a"
+  integrity sha512-qWOnRYHdKzjCvcH6WOKra+KPlrMyS9ahoVvOSboJK7S3xzj9Pp5mgtcDBXqN9LlPbXDEzjZjFDJQMAtlP4c3Ig==
+
+"@ngrx/store@^9.1.2":
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-9.2.1.tgz#a05934bb83344efe669e52acd90b17ebe10c4ab4"
+  integrity sha512-18mLKH7CAi5+F1zYbbxoCDKE8piCxZkwOoPlXEsq/LBKrZvYIvOeSlEXMjiUp3cCL3QOT27QvWIqQkIuE9b7mg==
 
 "@ngtools/webpack@9.1.4":
   version "9.1.4"
@@ -7617,9 +7622,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.0, ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
